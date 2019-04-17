@@ -18,9 +18,9 @@ def register():
 
     User.save_user(user)
 
-    welcome_mail_message('Welcome to Jlogs', 'email/welcome_email', user.email, user=user)
+    welcome_mail_message('Welcome to crimmzblogs', 'email/welcome_email', user.email, user=user)
     return redirect(url_for('auth.login'))
-    title='New Jlogs Account'
+    title='New crimmzblogs Account'
 
   return render_template('auth/register.html', registration_form=form)
 
@@ -38,7 +38,7 @@ def login():
 
     flash('Invalid Username or Password')
 
-  title = 'Jlogs Login'
+  title = 'crimmzblogs Login'
   return render_template('auth/login.html', login_form = login_form, title = title)
 
 @auth.route('/logout')
