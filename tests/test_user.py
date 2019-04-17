@@ -5,7 +5,7 @@ from dataetime import datetime
 class UserModelTest(unittest.TestCase):
 
   def setUp(self):
-    self.new_user=User(1, 'jeremy', 'j@j.com', datetime.now(), 'j', 'j', password='banana', access=1)
+    self.new_user=User(1, 'chris', 'c@c.com', datetime.now(), 'c', 'c', password='black', access=1)
 
   def tearDown(self):
     User.query.delete()
@@ -18,7 +18,7 @@ class UserModelTest(unittest.TestCase):
       self.new_user.password
 
   def test_password_verfication(self):
-    self.assertTrue(self.new_user.verify_password('banana'))
+    self.assertTrue(self.new_user.verify_password('black'))
 
   def test_save_user(self):
     self.new_user.save_user()
@@ -26,8 +26,8 @@ class UserModelTest(unittest.TestCase):
 
   def test_find_user(self):
     self.new_user.save_user()
-    found_user = User.find_by_username('jeremy')
-    self.assertTrue(len(found_user.username) == 'jeremy')
+    found_user = User.find_by_username('chris')
+    self.assertTrue(len(found_user.username) == 'chris')
 
   def test_access_level(self):
     self.new_user.save_user()

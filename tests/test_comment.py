@@ -2,7 +2,7 @@ from app.models import User, Comments, Post
 from app import db
 
 def setUp(self):
-  self.new_user=User(1, 'jeremy', 'j@j.com', datetime.now(), 'j', 'j', password='banana', access=1)
+  self.new_user=User(1, 'chris', 'c@c.com', datetime.now(), 'c', 'c', password='black', access=1)
   
   self.new_post = Post(1, 'title', 'body', datetime.now())
 
