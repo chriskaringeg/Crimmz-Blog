@@ -55,7 +55,7 @@ class User(UserMixin, db.Model):
 
   def init_db():
     if User.query.count() == 0:
-      master = User(username='master', password='master', first_name='Jeremy', surname='Kimotho', email='projectsjeremy1000@gmail.com', access=ACCESS['admin'])
+      master = User(username='master', password='master', first_name='Chris', surname='kinyua', email='ckaringe@gmail.com', access=ACCESS['admin'])
       
       db.session.add(master)
       db.session.commit()
