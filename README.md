@@ -1,17 +1,22 @@
 # Crimmz-Blog
+
 Personal blogging website for users to create stunning websites and share their ideas to the world 
 
 ## Setup/Installation Requirements 
+
 Deployed Link:
 Github link :
 
 ## Installing Dependencies
+
 pip3 install -r requirements.txt
 
 ## Running the server
+
 ./start.sh
 
 ## step-by step guide
+
 *  User Login/Registration
 *  Create Blog
 *  Post Blog
@@ -19,6 +24,7 @@ pip3 install -r requirements.txt
 *  Comment
 
 ### User Stories
+
 * As a user, I would like to view the blog posts submitted
 * As a user, I would like to comment on blog posts
 * As a user, I would like to view the most recent posts
@@ -29,12 +35,14 @@ pip3 install -r requirements.txt
 * As a writer, I would like to update or delete blogs I have created.
 
 ## Behavior Driven Development
+
 | input              | output                     |
 |---------------     |---------------             |
 | Login/sign up      | Create blog post           |
 | View Blog          |                     comment|
 
 ## Technologies Used
+
 * Python3.6
 * Flask
 * HTML
@@ -42,12 +50,14 @@ pip3 install -r requirements.txt
 * Bootstrap
 
 ## Support and contact details
+
 {Run the web page once again incase of any errors,
 suggestions
 send an email: {ckaringe@gmail.com}}
 
 
 ## license
+
 MIT
 
 Copyright (c) {2019} **{KARINGE KINYUA}**
