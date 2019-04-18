@@ -15,4 +15,4 @@ def date_calc(date):
   elif daysPast>1 and daysPast<=2:
     return 'Since just yesterday'
   else :
-    return str(int(daysPast)) + ' days'
+    return str(int(daysPast)) + ' Days'
