@@ -13,7 +13,7 @@ pip3 install -r requirements.txt
 
 ## Running the server
 
-./start.sh
+python3.6 manage.py runserver
 
 ## step-by step guide
 
