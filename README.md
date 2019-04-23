@@ -39,7 +39,7 @@ python3.6 manage.py runserver
 | input              | output                     |
 |---------------     |---------------             |
 | Login/sign up      | Create blog post           |
-| View Blog          |                     comment|
+| View Blog          | comment                    |
 
 ## Technologies Used
 
