@@ -4,8 +4,8 @@ Personal blogging website for users to create stunning websites and share their 
 
 ## Setup/Installation Requirements 
 
-Deployed Link:
-Github link :https://github.com/chriskaringeg/Crimmz-Blog.git
+* Deployed Link:
+* Github link :https://github.com/chriskaringeg/Crimmz-Blog.git
 
 ## Installing Dependencies
 
