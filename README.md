@@ -56,7 +56,7 @@ suggestions
 send an email: {ckaringe@gmail.com}}
 
 
-## license
+## License
 
 MIT
 
