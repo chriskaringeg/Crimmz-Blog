@@ -9,8 +9,8 @@ from ..email import welcome_mail_message
 
 @auth.route('/register', methods=['GET', 'POST'])
 def register():
-  User.init_db()
-  Post.default_posts()
+  # User.init_db()
+  # Post.default_posts()
   form = RegistrationForm()
 
   if form.validate_on_submit():
