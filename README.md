@@ -4,7 +4,7 @@ Personal blogging website for users to create stunning websites and share their 
 
 ## Setup/Installation Requirements 
 
-* Deployed Link:
+* Deployed Link:https://crimmz-blog.herokuapp.com
 * Github link :https://github.com/chriskaringeg/Crimmz-Blog.git
 
 ## Installing Dependencies
