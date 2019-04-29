@@ -26,7 +26,7 @@ def requires_admin(access_level):
 @login_required
 def index():
   posts=Post.query.all()
-  title='Welcome to Jeiter'
+  title='Welcome to Crimmz-blog'
   return render_template('index.html', title=title, posts=posts)
 
 @main.route('/profile/user/<uname>/<id>')
